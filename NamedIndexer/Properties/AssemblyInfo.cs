@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NamedIndexer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("NamedIndexers")]
+[assembly: AssemblyDescription("A small utility library that introduces a generic proxy classes which simulate named indexers (also known as indexed properties) with user-supplied getter and optional setter functions through lambdas or delegates.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NamedIndexer")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCompany("IcIWare")]
+[assembly: AssemblyProduct("NamedIndexers")]
+[assembly: AssemblyCopyright("Copyright IcIWare ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
