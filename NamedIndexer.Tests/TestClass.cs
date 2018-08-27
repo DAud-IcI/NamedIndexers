@@ -15,9 +15,9 @@ namespace IcIWare.NamedIndexers.Tests
             public int[] _numbers = new[] { 4, 8, 15, 16, 23, 42 };
             public char[] _letters = "Lorem Ipsum".ToCharArray();
 
-            public NamedIndexer<int, int> TheNumbers;
-            public NamedIndexer<int, char> Typesetter;
-            public NamedGetter<int, long> Double;
+            public readonly NamedIndexer<int, int> TheNumbers;
+            public readonly NamedIndexer<int, char> Typesetter;
+            public readonly NamedGetter<int, long> Double;
 
             public ExampleObject()
             {
