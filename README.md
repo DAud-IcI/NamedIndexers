@@ -11,8 +11,10 @@ Alternatively you can download the DLL from the [releases](https://github.com/DA
 
 ## Usage
 You have two classes at your disposal inside the `IcIWare.NamedIndexers` namespace:
+
 * NamedIndexer : can be used for both getting and setting
 * NamedGetter : getter only version
+
 Create a `public readonly` field in your class. Initialize it in the constructor of the host class using lambda expressions. This way the object doesn't have to be aware of its host because the lambda's automatic closure takes care of it all.
 
 ```C#
