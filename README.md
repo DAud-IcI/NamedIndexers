@@ -5,7 +5,7 @@ A small utility library that introduces a generic proxy classes which simulate n
 Sometimes you may find it logical to have a class with two or more indexers, but it's not obvious from context what each does. Maybe your keys automatically cast into each other which creates ambiguity or  you need two numeric indexers each using a different internal logic. You want to be clear what each indexer does but using getter and setter functions would be cumbersome and not so user friendly. Instead, this library allows you to create small proxy objects with their own indexers which refer back to their host object through lambda expressions.
 
 ## Install
-You can get it from NuGet under the name `IcIWare.NamedIndexers`.
+You can get it from NuGet under the name [IcIWare.NamedIndexers](https://www.nuget.org/packages/IcIWare.NamedIndexers/).
 Alternatively you can download the DLL from the [releases](https://github.com/DAud-IcI/NamedIndexers/releases/tag/1.0.0) and simply add it as a reference.
 
 
